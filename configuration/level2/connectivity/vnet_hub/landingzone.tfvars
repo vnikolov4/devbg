@@ -2,11 +2,12 @@ landingzone = {
   backend_type        = "azurerm"
   level               = "level2"
   key                 = "connectivity_vnet_hub"
-  global_settings_key = "connectivity_vnet_hub"
+  global_settings_key = "management"
   tfstates = {
-    connectivity_vnet_hub = {
-      tfstate   = "connectivity_vnet_hub.tfstate"
+    management = {
+      tfstate   = "management.tfstate"
       workspace = "tfstate"
+      level     = "lower"
     }
   }
 }

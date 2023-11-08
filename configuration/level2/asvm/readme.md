@@ -6,7 +6,7 @@ rover login -t vanik.onmicrosoft.com
 
 cd /tf/caf/landingzones
 git fetch origin
-git checkout 2203.0
+git checkout 2203.1
 
 rover \
   --impersonate-sp-from-keyvault-url https://cafdemo-kv-idl0-rkp.vault.azure.net/ \
